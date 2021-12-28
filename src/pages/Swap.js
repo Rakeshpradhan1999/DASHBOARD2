@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Sidebar from "../components/sidebar";
-import Panel from "../components/mainPanel";
-const Home = () => {
+import Panel from "../components/swapPanel";
+const Swap = () => {
   const [show, setShow] = useState(false);
   return (
     <div className="flex relative bg-black">
@@ -11,4 +11,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Swap;

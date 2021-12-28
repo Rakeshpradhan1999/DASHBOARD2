@@ -1,0 +1,13 @@
+.custom-input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid rgba(214, 214, 214, 0.125);
+  border-radius: 2px;
+}
+.custom-input input {
+  background-color: transparent;
+  width: 100%;
+}
+.custom-input input:active {
+  background-color: transparent;
+}
